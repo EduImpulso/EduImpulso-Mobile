@@ -60,7 +60,7 @@ function Home({navigation}) {
                     </View>
                     <View style={styles.botaoCard}>
                         <TouchableOpacity style={styles.btn} onPress={linkNoticias}
-                        ><Text style={styles.texto}>Logar</Text></TouchableOpacity>
+                        ><Text style={styles.texto}>Acessar</Text></TouchableOpacity>
                     </View>
                 </View>
             </View>
@@ -78,7 +78,7 @@ function Home({navigation}) {
                     </View>
                     <View style={styles.botaoCard}>
                         <TouchableOpacity style={styles.btn}
-                        ><Text style={styles.texto}>Logar</Text></TouchableOpacity>
+                        ><Text style={styles.texto}>Acessar</Text></TouchableOpacity>
                     </View>
                 </View>
             </View>

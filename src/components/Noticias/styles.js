@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     newsImage: {
         width: "100%", 
         height: 150,
-        borderTopEndRadius: 10,
+        borderTopRightRadius: 10,
         borderTopLeftRadius: 10
     },
     card: {

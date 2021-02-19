@@ -8,7 +8,7 @@ import {
 } from "react-native";
 
 import { TextInput } from "react-native-gesture-handler";
-import bannerLogin from '../../imgs/login.jpg'
+import bannerLogin from '../../imgs/login.jpeg'
 import styles from "./styles";
 
 function Login() {

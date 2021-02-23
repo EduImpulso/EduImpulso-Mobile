@@ -38,9 +38,9 @@ export default function App() {
         inactiveTintColor: 'gray',
       }}
     >
+      <Tab.Screen name="Login" component={Login} />
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="News" component={News} />
-      <Tab.Screen name="Login" component={Login} />
     </Tab.Navigator>
 
   </NavigationContainer>

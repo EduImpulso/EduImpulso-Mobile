@@ -3,18 +3,22 @@ const styles = StyleSheet.create({
     caixa: {
         height: "100%",
         width: "100%",
-        backgroundColor: '#670dbb',
+        backgroundColor: '#8B1CDA',
         justifyContent:"center",
         alignItems: "center",
         padding: 10,
     },
     titulo: {
         color: "white",
-        fontSize: 32
+        fontSize: 32,
     },    
+    logoLogin:{
+        width: "100%",
+        display: "flex",
+        border: "3px solid red"
+    },
     inputs: {
         padding: 10,
-        margin: 10,
         width: "100%",
     },
     input: {
@@ -40,14 +44,18 @@ const styles = StyleSheet.create({
         width: "100%", 
         height: "50%",
         alignItems:"center",
-        justifyContent:"center",
-        borderRadius: 5,
-        marginTop:15,
+        justifyContent:"flex-start",
+        borderRadius: 5
     },
     image: {
         width: "94%", 
-        height: "110%",
+        height: "90%",
         borderRadius: 5,
+    },
+    imageLogoLogin: {
+        marginTop: 10,
+        height: 100,
+        width: 300,
     }
 });
 

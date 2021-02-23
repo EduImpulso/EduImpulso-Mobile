@@ -9,6 +9,7 @@ import {
 
 import { TextInput } from "react-native-gesture-handler";
 import bannerLogin from '../../imgs/login.jpeg'
+import logoLogin from '../../imgs/logoLogin.png'
 import styles from "./styles";
 
 function Login() {
@@ -18,21 +19,25 @@ function Login() {
     }
 
     return (
+        
         <View style={styles.caixa}>
 
             <View>
-                <Text style={styles.titulo}>
-                    Login
-                </Text>
+
+                <Image source={logoLogin} style={styles.imageLogoLogin}/>                
+
             </View>
+            <Text style={styles.titulo}>
+                    login
+            </Text>
             
             <View style={styles.inputs}>
                 <TextInput
-                placeholder="Digite o Usuario"
+                placeholder="digite o usuário"
                 style={styles.input}
                 />
                 <TextInput
-                placeholder="Digite a senha"
+                placeholder="digite a senha"
                 secureTextEntry={true}
                 style={styles.input}
                 />

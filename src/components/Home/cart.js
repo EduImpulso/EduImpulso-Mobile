@@ -23,7 +23,7 @@ function cart(props) {
                 </View>
                 <View style={styles.botaoCard}>
                     <TouchableOpacity style={styles.btn} 
-                    ><Text style={styles.texto} >Acessar</Text></TouchableOpacity>
+                    ><Text style={styles.texto} >acessar</Text></TouchableOpacity>
                 </View>
             </View>
         </View>

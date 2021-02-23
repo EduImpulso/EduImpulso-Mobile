@@ -28,7 +28,7 @@ function Login() {
 
             </View>
             <Text style={styles.titulo}>
-                    login
+                    login 🔑
             </Text>
             
             <View style={styles.inputs}>
@@ -43,9 +43,9 @@ function Login() {
                 />
 
                 <TouchableOpacity style={styles.btn} onPress={autenticacao}>
-                    <Text style={styles.texto}>Logar</Text>
+                    <Text style={styles.texto}>entrar</Text>
                 </TouchableOpacity>
-                <Text style={{color: "white"}}>Cadastre-se aqui!</Text>
+                <Text style={{color: "white"}}>cadastre-se!</Text>
 
 
             </View>

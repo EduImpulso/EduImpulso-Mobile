@@ -35,15 +35,15 @@ function Home({navigation}) {
                 <View style={styles.card}>
                     <View style={styles.cardText}>
                         <Text style={{ fontSize: 25, fontWeight: 'bold' }}>
-                            login
+                            entrar
                         </Text>
-                        <Text style={{ fontSize: 20, textAlign: 'center' }}>
-                            clique aqui e faça seu login!
+                        <Text style={{ fontSize: 18, textAlign: 'center' }}>
+                            clique aqui e faça seu login
                         </Text>
                     </View>
                     <View style={styles.botaoCard}>
                         <TouchableOpacity style={styles.btn} onPress={linkLogar}
-                        ><Text style={styles.texto} onPress={linkLogar}>Logar</Text></TouchableOpacity>
+                        ><Text style={styles.texto} onPress={linkLogar}>entrar</Text></TouchableOpacity>
                     </View>
                 </View>
             </View>
@@ -54,13 +54,13 @@ function Home({navigation}) {
                         <Text style={{ fontSize: 25, fontWeight: 'bold' }}>
                             notícias
                         </Text>
-                        <Text style={{ fontSize: 20, textAlign: 'center' }}>
-                            as prinicipais noticias sobre educação!
+                        <Text style={{ fontSize: 18, textAlign: 'center' }}>
+                            novidades sobre educação
                         </Text>
                     </View>
                     <View style={styles.botaoCard}>
                         <TouchableOpacity style={styles.btn} onPress={linkNoticias}
-                        ><Text style={styles.texto}>Acessar</Text></TouchableOpacity>
+                        ><Text style={styles.texto}>acessar</Text></TouchableOpacity>
                     </View>
                 </View>
             </View>

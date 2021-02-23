@@ -21,7 +21,7 @@ function CartNews(props) {
         </View>
 
         <View style={styles.cartInfos}>
-          <Text style={{ fontSize: 20, textAlign: "center",color: "white" }}>
+          <Text style={{ fontSize: 18, textAlign: "center",color: "white" }}>
               {props.title}
           </Text>
 

@@ -18,7 +18,7 @@ function Home({navigation}) {
         navigation.navigate("Login")
     }
     function linkNoticias() {
-        navigation.navigate("Noticias")
+        navigation.navigate("News")
     }
     
     return (
@@ -28,17 +28,17 @@ function Home({navigation}) {
 
             <View style={styles.cartImage}>
                 <Image source={imageHome} style={styles.imageHome} />
-                <Text style={{textAlign: "center", padding:"6%", fontSize: 23}}>"a vaga ta lá esperando vc! ✌"</Text>
+                <Text style={{textAlign: "center", padding:"6%", fontSize: 23, color: "white"}}>a vaga ta lá esperando vc! ✌</Text>
             </View>
 
             <View style={styles.cardContainer}>
                 <View style={styles.card}>
                     <View style={styles.cardText}>
-                        <Text style={{ fontSize: 35, fontWeight: 'bold' }}>
-                            LOGIN
+                        <Text style={{ fontSize: 25, fontWeight: 'bold' }}>
+                            login
                         </Text>
-                        <Text style={{ fontSize: 25, textAlign: 'center' }}>
-                            Clique aqui e realize seu login!
+                        <Text style={{ fontSize: 20, textAlign: 'center' }}>
+                            clique aqui e faça seu login!
                         </Text>
                     </View>
                     <View style={styles.botaoCard}>
@@ -51,10 +51,10 @@ function Home({navigation}) {
             <View style={styles.cardContainer}>
                 <View style={styles.card}>
                     <View style={styles.cardText}>
-                        <Text style={{ fontSize: 35, fontWeight: 'bold' }}>
-                            NOTÍCIAS
+                        <Text style={{ fontSize: 25, fontWeight: 'bold' }}>
+                            notícias
                         </Text>
-                        <Text style={{ fontSize: 25, textAlign: 'center' }}>
+                        <Text style={{ fontSize: 20, textAlign: 'center' }}>
                             as prinicipais noticias sobre educação!
                         </Text>
                     </View>
@@ -65,23 +65,7 @@ function Home({navigation}) {
                 </View>
             </View>
                     
-            <View style={styles.cardContainer}>
-             
-                <View style={styles.card}>
-                    <View style={styles.cardText}>
-                        <Text style={{ fontSize: 35, fontWeight: 'bold' }}>
-                            TEORIAS
-                        </Text>
-                        <Text style={{ fontSize: 25, textAlign: 'center' }}>
-                            teoria de multiplas inteligências de Harward Gardner
-                        </Text>
-                    </View>
-                    <View style={styles.botaoCard}>
-                        <TouchableOpacity style={styles.btn}
-                        ><Text style={styles.texto}>Acessar</Text></TouchableOpacity>
-                    </View>
-                </View>
-            </View>
+
 
             {/* <Cart h1="LOGIN" txt="Clique aqui e realize seu login!"/> */}
 

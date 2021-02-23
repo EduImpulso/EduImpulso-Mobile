@@ -4,7 +4,7 @@ import {
 
 const styles = StyleSheet.create({
     cartImage: {
-        width: "100%", 
+        width: "100%",
     },
     image: {
         width: "100%", 
@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
         padding: 10,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "#282828"
     },
 
     newsImage: {

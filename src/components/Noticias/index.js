@@ -26,8 +26,8 @@ function Noticias() {
                 
             </View>
 
-            <View style={{borderWidth: 0.5, opacity: 0.5, borderLeftWidth: 0,borderRightWidth: 0,borderTopWidth: 0, borderColor: "#20232a", padding: 40, alignItems: "center", justifyContent: "center"}}> 
-                <Text style={{fontSize: 30}}>Ultima semana</Text>
+            <View style={{borderWidth: 0.5, borderLeftWidth: 0,borderRightWidth: 0,borderTopWidth: 0, padding: 30, alignItems: "center", justifyContent: "center", backgroundColor:"#282828"}}> 
+                <Text style={{fontSize: 25, color: "white"}}>últimas novidades</Text>
             </View>
 
             <View style={styles.cardContainer}>

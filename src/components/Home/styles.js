@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     cartImage: {
+        backgroundColor: "#282828",
         width: "100%"
     },
     imageHome: {
@@ -13,18 +14,20 @@ const styles = StyleSheet.create({
         padding: 15,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "#282828"
     },
     card: {
         padding: 10,
         width: "80%",
         backgroundColor: "#4CC9F0",
         alignItems: "center",
-        borderRadius: 10
+        borderRadius: 10,
     },
     cardText: {
         alignItems: "center",
         marginBottom: 10,
         color: "black",
+        
     },
     botaoCard: {
         width: "80%",
